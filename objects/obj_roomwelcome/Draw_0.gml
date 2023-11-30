@@ -1,11 +1,17 @@
+// Set the horizontal alignment to center
+
 draw_set_halign(fa_center);
+
+// Draw transformed colored text with the title "Gravity Shift"
 
 draw_text_transformed_color(room_width/2, 50, "Gravity Shift", 3,3,0, c_blue, c_red, c_blue, c_yellow,1);
 
-draw_text(room_width/2, 200,
-	@"
+// Draw multiline instructions and information about the game
 
-	Welcome to Gravity Shift!
+draw_text(room_width/2, 200,
+    @"
+
+    Welcome to Gravity Shift!
 
     Your mission is to navigate through space and survive as long as possible.
 
@@ -27,7 +33,9 @@ draw_text(room_width/2, 200,
 
     Press ESCAPE to quit the game and return to reality.
 
-	"
+    "
 );
+
+// Set the horizontal alignment back to left for subsequent drawing
 
 draw_set_halign(fa_left);
