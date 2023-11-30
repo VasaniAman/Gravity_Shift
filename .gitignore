@@ -1,0 +1,56 @@
+# Game Maker Project Files
+*.yy
+*.yyp
+*.yyp.bak
+*.yyt
+*.yyp.meta
+*.project.gmx
+*.sol
+
+
+
+# Game Maker Backup Files
+Backup_*
+backup_*
+*.bak
+
+
+# Compiled Yacc Files
+y.tab.c
+y.tab.h
+y.output
+
+
+# Compiled Yacc Binary
+yacc
+
+
+# Compiled Game Files
+*.exe
+*.win
+*.app
+*.dmg
+*.zip
+
+
+
+# Game Logs and Runtime Files
+*.log
+*.err
+*.txt
+*.ini
+*.options
+
+
+# Game Maker Settings
+*.local
+*.options
+
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+
+# User-specific Game Maker Files
+*.user

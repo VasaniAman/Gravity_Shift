@@ -1,3 +1,3 @@
-speed = 1;
-direction = random(360);
-image_angle = random(360);
+speed = 2;
+direction = random(355);
+image_angle = random(355);
