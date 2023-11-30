@@ -1,30 +1,32 @@
 draw_set_halign(fa_center);
 
 draw_text_transformed_color(room_width/2, 50, "Gravity Shift", 3,3,0, c_blue, c_red, c_blue, c_yellow,1);
+
 draw_text(room_width/2, 200,
 	@"
-	The aim of the game is to survive as long as possible.
-	
-	
-	Score as many points as you can by destroying the Asteroids!
-	(The number of asteroids increase as you get more points)
-	
-	
-	Experiance Gravity Shifting (hehe) movement experiances
-	
-	
-	
-	UP ARROW: Move forward
-	DOWN ARROW: Move backward
-	RIGHT ARROW: Change direction of player to turn to the right
-	LEFT ARROW: Change direction of player to the left
-	
-	SPACE BAR: Shoot!
-	
-	
-	>>PRESS ENTER TO START<<
-	
-	>>PRESS ESCAPE TO QUIT<<
+
+	Welcome to Gravity Shift!
+
+    Your mission is to navigate through space and survive as long as possible.
+
+    Earn points by destroying incoming asteroids. 
+
+    The more points you score, 
+    the more challenging it becomes!
+
+    Experience the thrill of gravity-shifting movement:
+
+    - Press the UP ARROW to move forward
+    - Press the DOWN ARROW to move backward
+    - Use the RIGHT ARROW to turn the player to the right
+    - Use the LEFT ARROW to turn the player to the left
+
+    Don't forget to unleash your firepower by pressing the SPACE BAR to shoot!
+
+    Press ENTER to embark on your space journey.
+
+    Press ESCAPE to quit the game and return to reality.
+
 	"
 );
 
